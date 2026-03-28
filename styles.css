@@ -1,0 +1,245 @@
+.container{
+    display: flex;
+    margin: 0px;
+}
+.content{
+    width:1190px;
+    height: 700px;
+    padding: 20px 0px 0px 30px;
+    flex: 1; 
+    padding: 20px;
+   
+}
+.content p{
+    font-size: 20px;
+}
+#button1{ 
+    width:250px;
+    height:40px;
+    border-radius: 10px;
+    cursor: pointer;
+    border: transparent;  
+    text-align: center;  
+    margin-left: 25px;
+}
+#button1:hover{
+    background-color: green;
+    color: whitesmoke;
+}
+#Tasks,#Project{
+    display: none;
+}
+.box3-0 p{
+    text-align: center;
+    font-size: 35px;
+}
+
+.box3-1{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.box3-1-1{
+    width:280px;
+    height:130px;
+    border: 2px solid black;
+    background-color: whitesmoke;
+    border-radius: 15px;   
+}
+.box3-1-2 p{
+    margin:20px -20px 0px 450px;
+    font-size: 20px;
+    line-height: 2;
+}
+.table-container{
+    border-radius: 20px;
+}
+.table1{
+    width:280px;
+    height:100px;
+    border: 2px solid black;
+    margin: 50px 0px 0px 450px;
+    text-align: center;
+}
+
+.box1 p{
+    text-align: center;  
+}
+.tasks-list{
+    width: 540px;
+    height:auto;
+    margin-left:20px;
+    padding:0px;
+}
+.tasks-list p{
+    font-size: 30px;
+    margin-top: 15px;
+}
+.text{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 20px;
+    background: #edeef0; 
+}
+.text input{
+    height: 20px;
+    margin-bottom: 20px;
+    margin: 2px 0px 10px 5px;
+}
+input{
+    flex:1;
+    border: none;
+    outline:none;
+    background: transparent;
+    margin:15px;
+}
+#addbutton{
+    border:none;
+    outline: none;
+    background: red;
+    color:#fff;
+    font-size: 16;
+    padding:15px 40px;
+    border-radius: 20px;
+    cursor: pointer;
+
+}
+ul li{
+    list-style: none;
+    font-size: 17px;
+    padding: 12px 8px 12px 40px;
+    user-select: none;
+    cursor: pointer;
+    position: relative;
+
+}
+ul li::before{
+    content: '';
+    position:absolute;
+    height:28px;
+    width: 28px;
+    border-radius: 50%;
+    background-image: url(https://png.pngtree.com/png-clipart/20230426/original/pngtree-black-circle-ring-picture-image_5487769.png);
+    background-size: cover;
+    background-position: center;
+    top:12px;
+    left:0px;
+}
+ul li.checked{
+    color: #555;
+    text-decoration: line-through;
+}
+ul li.checked::before{
+    background-image: url(https://icones.pro/wp-content/uploads/2021/02/icone-de-tique-ronde-rouge.png); 
+}
+ul li span{
+    position: absolute;
+    right:0;
+    top: 5px;
+    width: 40px;
+    height: 40px;
+    font-size: 22px;
+    line-height: 40px;
+    text-align: center;
+}
+ul li span:hover{
+    background: #edeef0;
+}
+.overdue{
+    color: red;
+}
+.sidebar {
+    background-color: skyblue;
+    width: 350px;   
+    height: 735px;
+    padding-left:30px;
+    padding-top: 10px;
+    margin-left: -110px;
+}
+.sidebar p{
+    font-size: 30px;
+    margin:20px 0px 30px 70px;
+}
+.sidebar button{
+    width: 300px;
+    margin: 0px 35px 5px 0px;
+    height:40px;
+    border-radius: 10px;
+}
+.sidebar button:hover{
+    background-color:black;
+    color:white;
+}
+.wrapper{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 80px;
+}
+.input1{
+    height:40px;
+    padding-left: 20px;
+}
+.wrapper input{
+    padding-left: 40px;
+    color: black;
+}
+.input1 button{
+    height:auto;
+    text-align: center;
+}
+.Project p{
+    font-size: 30px;
+    margin-top: 10px;
+}
+.input1 label{
+    font-size: 20px;
+}
+.Name,.Description{
+    margin-top: 20px;
+    background-color: #f2f2f2;
+    height:50px;
+    width:350px;
+    box-shadow: 0px 5px 7px grey;
+    border-radius: 20px;
+    padding-left: 50px;
+    font-size: 15px;
+}
+.input1 button{
+    cursor: pointer;
+    margin-top:45px;
+    height:40px;
+    width:100px;
+    background-color: red;
+    border-radius: 20px;
+}
+.list{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+.list-item{
+    background-color:white;
+    display: flex;
+    justify-content: space-between;
+    background-color: grey;
+    height:auto;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    padding:10px 0px 0px 40px;
+}
+.input1 label{
+    padding-right: 20px;
+}
+.icon{
+    font-size: 50px;
+    cursor: pointer;
+    padding-right: 20px;
+
+}
+.icon:hover{
+    color: red;
+}
+
+
